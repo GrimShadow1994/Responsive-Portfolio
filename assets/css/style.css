@@ -229,9 +229,24 @@ input[type=submit] {
     margin: 0 auto;
     clear: both;
     text-align: center;
-}
-nav a {
-  align-content: center;
-  display: inline-flex;
-}
-}
+  }
+  footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+  }
+  .work {
+    position: center;
+    float: initial;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+} 
