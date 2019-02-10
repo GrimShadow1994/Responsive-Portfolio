@@ -139,7 +139,7 @@ h3, h2 {
 .work {
   position: relative;
   float: left;
-  width: 274px;
+  width: 100%;
   margin: 20px 0 25px;
   overflow: auto;
 }
@@ -223,6 +223,10 @@ input[type=submit] {
 
 }
 @media screen and (max-width: 640px) {
+  body {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
   .container {
     width: 100%;
     max-width: 640px;
@@ -243,10 +247,13 @@ input[type=submit] {
     position: fixed;
     width: 100%;
   }
-  .work {
-    position: center;
-    float: initial;
-    width: 274px;
-    margin: 20px 0 25px;
-    overflow: auto;
+  #logo {
+    width: 100%;
+  }
+  nav {
+    float: none;
+  }
+  nav a {
+    width: 33%;
+  }
 } 
